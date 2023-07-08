@@ -23,7 +23,7 @@ def partition(alist, start, end):
             alist[start], alist[j] = alist[j], alist[start]
             return j
  
- 
+ # tHIS CODE NEED TO BE CHECKED
 alist = input('Enter the list of numbers: ').split()
 alist = [int(x) for x in alist]
 quicksort(alist, 0, len(alist))
